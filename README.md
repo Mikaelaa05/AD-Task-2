@@ -1,4 +1,4 @@
-# 🎸 Bocchi the Rock! Fan Page (AD-Task-1)🎶
+# 🎸 Bocchi the Rock! Fan Page (AD-Task-2)🎶
 
 Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicated to the amazing anime series *Bocchi the Rock!* 🌟
 
