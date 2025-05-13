@@ -10,6 +10,8 @@ Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicat
 - **About Section**: Learn about the creators, studio, and the series itself.
 - **Contact Us**: Reach out to us with your thoughts and feedback.
 - **Back Button**: Easily navigate back to the previous page.
+- **Band Info Section**: Displays detailed information about each band member using arrays and dictionaries.
+- **Hover Effects**: Interactive hover effects for character names with color changes and underlines.
 
 ---
 
@@ -19,7 +21,14 @@ Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicat
 ---
 
 ## 🛠️ Technologies Used
-- **PHP**: For dynamic content generation.
+- **PHP**: For dynamic content generation and server-side logic.
+  - **Declarations**: Variables and constants are declared to store and manage data efficiently.
+  - **Conditional Statements**: Used to control the flow of the application based on specific conditions (e.g., `if`, `else`, `switch`).
+  - **Looping Statements**: Utilized to iterate through arrays and perform repetitive tasks (e.g., `foreach`, `for`, `while`).
+  - **Arrays and Dictionaries**: Used to store and display band member information dynamically.
+  - **Functions**: Modularized code for reusable components like displaying band members.
+  - **Fragmentation**: Organized code into reusable components (e.g., header, footer, back button).
+
 - **CSS**: For styling and themes.
 - **JavaScript**: For interactive features like image navigation.
 - **HTML**: For structure and layout.
