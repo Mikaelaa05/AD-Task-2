@@ -1,6 +1,17 @@
 <?php include 'components/header.php'; ?>
 
-<?php $isBind = true; ?>
+<?php $isBind = true;
+
+function displayBandMembers($members)
+{
+    echo "<p>Kessoku Band Members:</p><ul>";
+    foreach ($members as $member) {
+        echo "<li>" . $member . "</li>";
+    }
+    echo "</ul>";
+}
+
+?>
 
 <div class="card">
     <h2>Welcome to the <?php echo $theme; ?> Fan Page!</h2>
@@ -19,11 +30,7 @@
         'Yamada Ryo'
     ];
     if ($isBind) {
-        echo "<p>Kessoku Band Members:</p><ul>";
-        for ($i = 0; $i < count($members); $i++) {
-            echo "<li>" . $members[$i] . "</li>";
-        }
-        echo "</ul>";
+        displayBandMembers($members); // Call the function to display members
     } else {
         echo "<p>Not a member of Kessoku Band</p>";
     }
