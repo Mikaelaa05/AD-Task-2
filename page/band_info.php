@@ -1,4 +1,4 @@
-<?php include '..components/header.php'; ?>
+<?php include '../components/header.php'; ?>
 
 <div class="card">
     <h2>Kessoku Band Members</h2>
@@ -36,13 +36,20 @@
 
     function displayMember($member)
     {
-        global $theme, $BASE_URL;
         echo "<div class='band-member'>";
-        echo "<img src='{$BASE_URL}assets/img/{$member['image']}' alt='{$member['name']}'>";
-        echo "<h3>{$member['name']}</h3>";
+        echo "<img src='" . BASE_URL . "assets/img/{$member['image']}' alt='{$member['name']}'>";
+        echo "<h3><a href='" . BASE_URL . "page/{$member['link']}'>{$member['name']}</a></h3>";
         echo "<p><strong>Role:</strong> {$member['role']}</p>";
         echo "<p>{$member['description']}</p>";
-        echo "<a href='{$member['link']}' class='button'>Learn More</a>";
+        echo "</div>";
+    }
+
+    foreach ($band_members as $member) {
+        echo "<div class='band-member'>";
+        echo "<img src='" . BASE_URL . "assets/img/{$member['image']}' alt='{$member['name']}'>";
+        echo "<h3><a href='" . BASE_URL . "page/{$member['link']}'>{$member['name']}</a></h3>";
+        echo "<p><strong>Role:</strong> {$member['role']}</p>";
+        echo "<p>{$member['description']}</p>";
         echo "</div>";
     }
     ?>

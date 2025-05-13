@@ -16,8 +16,25 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
 
-.band-member h3 {
+.band-member h3 a {
     color: #ff80bf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.band-member:nth-child(3) a:hover {
+    text-decoration: underline;
+    color: #ff4d4d;
+}
+
+.band-member:nth-child(4) a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.band-member:nth-child(5) a:hover {
+    text-decoration: underline;
+    color: #3399ff;
 }
 
 .band-member p {
