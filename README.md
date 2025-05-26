@@ -59,6 +59,7 @@
 - **Band Info Section**: Displays detailed information about each band member using arrays and dictionaries.
 - **Hover Effects**: Interactive hover effects for character names with color changes and underlines.
 - **🎵 Floating MP3 Player**: Listen to a curated playlist of Bocchi the Rock! songs while browsing the site.
+    - **⚠NOTE⚠**: *mp3 player is only compatible with FiveServer and Apache/Nginx, not php -S*
     - **Playlist Dropdown**: View and select from a list of available songs.
     - **Progress Bar & Timer**: Track song progress with a visual slider and time display.
     - **Volume Control**: Adjust the audio volume with a modern slider.
