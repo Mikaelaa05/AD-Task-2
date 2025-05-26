@@ -373,6 +373,7 @@ document.addEventListener("mouseup", () => {
 const minimizeBtn = document.getElementById("minimize-player");
 minimizeBtn.addEventListener("click", () => {
     player.style.display = "none";
+    localStorage.setItem("mp3player-minimized", "true"); // Save minimized state
     // Optionally, show a small button to restore the player
     let restoreBtn = document.getElementById("restore-player-btn");
     if (!restoreBtn) {
@@ -394,6 +395,7 @@ minimizeBtn.addEventListener("click", () => {
         document.body.appendChild(restoreBtn);
         restoreBtn.addEventListener("click", () => {
             player.style.display = "";
+            localStorage.setItem("mp3player-minimized", "false"); // Save maximized state
             restoreBtn.remove();
         });
     }
@@ -485,3 +487,37 @@ audio.addEventListener("timeupdate", () => {
 audio.addEventListener("loadedmetadata", () => {
     totalTimeLabel.textContent = formatTime(audio.duration);
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    // Restore minimized state
+    if (localStorage.getItem("mp3player-minimized") === "true") {
+        player.style.display = "none";
+        // Show restore button if minimized
+        let restoreBtn = document.getElementById("restore-player-btn");
+        if (!restoreBtn) {
+            restoreBtn = document.createElement("button");
+            restoreBtn.id = "restore-player-btn";
+            restoreBtn.textContent = "🎵";
+            restoreBtn.title = "Show Player";
+            restoreBtn.style.position = "fixed";
+            restoreBtn.style.bottom = "30px";
+            restoreBtn.style.right = "30px";
+            restoreBtn.style.zIndex = 10000;
+            restoreBtn.style.background = "#ff80bf";
+            restoreBtn.style.color = "#fff";
+            restoreBtn.style.border = "none";
+            restoreBtn.style.borderRadius = "50%";
+            restoreBtn.style.width = "40px";
+            restoreBtn.style.height = "40px";
+            restoreBtn.style.fontSize = "1.5em";
+            document.body.appendChild(restoreBtn);
+            restoreBtn.addEventListener("click", () => {
+                player.style.display = "";
+                localStorage.setItem("mp3player-minimized", "false");
+                restoreBtn.remove();
+            });
+        }
+    }
+});
+
