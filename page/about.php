@@ -1,4 +1,5 @@
-<?php include '../components/header.php'; ?>
+<?php require_once __DIR__ . '/../init.php'; ?>
+<?php include __DIR__ . '/../components/header.php'; ?>
 
 <div class="card about-section">
     <h2>About <?php echo $theme ?></h2>
@@ -7,7 +8,7 @@
 
     <div class="about-images">
         <figure>
-            <img src="<?php echo BASE_URL; ?>assets/img/Hamaji Aki 1.jpg" alt="Hamaji Aki 1">
+            <img src="<?php echo BASE_URL; ?>assets/img/Hamaji_Aki_1.jpg" alt="Hamaji Aki 1">
             <figcaption>Hamaji Aki</figcaption>
             <p>Hamaji Aki is the mangaka and creator of the very popular manga and anime series <?php echo $theme ?>.
                 Not much is known about her, but her work has gained immense popularity and critical acclaim for its
@@ -15,7 +16,7 @@
             </p>
         </figure>
         <figure>
-            <img src="<?php echo BASE_URL; ?>assets/img/Kerorira 1.jpg" alt="Kerorira 1">
+            <img src="<?php echo BASE_URL; ?>assets/img/Kerorira_1.jpg" alt="Kerorira 1">
             <figcaption>Kerorira</figcaption>
             <p>Kerorira started off as a huge fan of <?php echo $theme ?> and had a deep love for the series. So much
                 so, that in an interview with Rolling Stones Japan two years ago, he said that “(I wanted to make it
@@ -34,7 +35,7 @@
                 Darling, Spy X Family, and much more.</p>
         </figure>
         <figure>
-            <img src="<?php echo BASE_URL; ?>assets/img/Kessoku Band Jump Shot NEW.jpg" alt="Kessoku Band Jumpshot">
+            <img src="<?php echo BASE_URL; ?>assets/img/Kessoku_Band_Jump_Shot_NEW.jpg" alt="Kessoku Band Jumpshot">
             <figcaption>The Series</figcaption>
             <p><?php echo $theme ?> is a Japanese manga and anime series that follows the story of Gotoh Hitori, a shy
                 and introverted
@@ -45,5 +46,5 @@
     </div>
 </div>
 
-<?php include '../components/back_button.php'; ?>
-<?php include '../components/footer.php'; ?>
+<?php include __DIR__ . '/../components/back_button.php'; ?>
+<?php include __DIR__ . '/../components/footer.php'; ?>

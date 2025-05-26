@@ -25,11 +25,11 @@
     <body>
         <header>
             <div class="header-content">
-                <img src=" <?php echo BASE_URL; ?>assets\img\Bocchi the rock logo small.png" alt="Bocchi the Rock! logo"
+                <img src=" <?php echo BASE_URL; ?>assets/img/Bocchi_the_rock_logo_small.png" alt="Bocchi the Rock! logo"
                     class="logo-left">
                 <?php include_once __DIR__ . '/navbar.php'; ?>
                 <?php include_once __DIR__ . '/mp3_player.php'; ?>
-                <img src="<?php echo BASE_URL; ?>assets\img\Kessoku Band Logo Clear.png" alt="Kessoku Band logo"
+                <img src="<?php echo BASE_URL; ?>assets/img/Kessoku_Band_Logo_Clear.png" alt="Kessoku Band logo"
                     class="logo-right">
             </div>
         </header>

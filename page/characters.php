@@ -1,4 +1,5 @@
-<?php include '../components/header.php'; ?>
+<?php require_once __DIR__ . '/../init.php'; ?>
+<?php include __DIR__ . '/../components/header.php'; ?>
 
 <div class="card">
     <h2>Meet Kessoku Band!</h2>
@@ -22,5 +23,5 @@
     </div>
 </div>
 
-<?php include '../components/back_button.php'; ?>
-<?php include '../components/footer.php'; ?>
+<?php include __DIR__ . '/../components/back_button.php'; ?>
+<?php include __DIR__ . '/../components/footer.php'; ?>
