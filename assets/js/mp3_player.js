@@ -3,13 +3,13 @@ const BASE_URL = window.BASE_URL || '/';
 const songs = [
     {
         title: "seishun complex",
-        file: BASE_URL + "assets/mp3/seishun complex.mp3",
-        logo: BASE_URL + "assets/img/songs/seishun complex.jpg"
+        file: BASE_URL + "assets/mp3/seishun_complex.mp3",
+        logo: BASE_URL + "assets/img/songs/seishun_complex.jpg"
     },
     {
         title: "hitoribocchi tokyo",
-        file: BASE_URL + "assets/mp3/hitoribocchi tokyo.mp3",
-        logo: BASE_URL + "assets/img/songs/hitoribocchi tokyo.jpg"
+        file: BASE_URL + "assets/mp3/hitoribocchi_tokyo.mp3",
+        logo: BASE_URL + "assets/img/songs/hitoribocchi_tokyo.jpg"
     },
     {
         title: "Distortion!!",
@@ -18,23 +18,23 @@ const songs = [
     },
     {
         title: "Secret base",
-        file: BASE_URL + "assets/mp3/Secret base.mp3",
-        logo: BASE_URL + "assets/img/songs/Secret base.jpg"
+        file: BASE_URL + "assets/mp3/Secret_base.mp3",
+        logo: BASE_URL + "assets/img/songs/Secret_base.jpg"
     },
     {
         title: "Guitar, Loneliness and Blue Planet",
-        file: BASE_URL + "assets/mp3/Guitar, Loneliness and Blue Planet.mp3",
-        logo: BASE_URL + "assets/img/songs/Guitar, Loneliness and Blue Planet.jpg"
+        file: BASE_URL + "assets/mp3/Guitar_Loneliness_and_Blue_Planet.mp3",
+        logo: BASE_URL + "assets/img/songs/Guitar_Loneliness_and_Blue_Planet.jpg"
     },
     {
         title: "I can't sing a love song",
-        file: BASE_URL + "assets/mp3/I can't sing a love song.mp3",
-        logo: BASE_URL + "assets/img/songs/I can't sing a love song.jpg"
+        file: BASE_URL + "assets/mp3/I_can't_sing_a_love_song.mp3",
+        logo: BASE_URL + "assets/img/songs/I_can't_sing_a_love_song.jpg"
     },
     {
         title: "That band",
-        file: BASE_URL + "assets/mp3/That band.mp3",
-        logo: BASE_URL + "assets/img/songs/That band.jpg"
+        file: BASE_URL + "assets/mp3/That_band.mp3",
+        logo: BASE_URL + "assets/img/songs/That_band.jpg"
     },
     {
         title: "Karakara",
@@ -43,23 +43,23 @@ const songs = [
     },
     {
         title: "The Little Sea",
-        file: BASE_URL + "assets/mp3/The Little Sea.mp3",
-        logo: BASE_URL + "assets/img/songs/hitoribocchi tokyo.jpg"
+        file: BASE_URL + "assets/mp3/The_Little_Sea.mp3",
+        logo: BASE_URL + "assets/img/songs/The_Little_Sea.jpg"
     },
     {
         title: "What is wrong with",
-        file: BASE_URL + "assets/mp3/What is wrong with.mp3",
-        logo: BASE_URL + "assets/img/songs/What is wrong with.jpg"
+        file: BASE_URL + "assets/mp3/What_is_wrong_with.mp3",
+        logo: BASE_URL + "assets/img/songs/What_is_wrong_with.jpg"
     },
     {
         title: "Never forget",
-        file: BASE_URL + "assets/mp3/Never forget.mp3",
-        logo: BASE_URL + "assets/img/songs/Never forget.jpg"
+        file: BASE_URL + "assets/mp3/Never_forget.mp3",
+        logo: BASE_URL + "assets/img/songs/Never_forget.jpg"
     },
     {
         title: "If I could be a constellation",
-        file: BASE_URL + "assets/mp3/If I could be a constellation.mp3",
-        logo: BASE_URL + "assets/img/songs/If I could be a constellation.jpg"
+        file: BASE_URL + "assets/mp3/If_I_could_be_a_constellation.mp3",
+        logo: BASE_URL + "assets/img/songs/If_I_could_be_a_constellation.jpg"
     },
     {
         title: "Flashbacker",
@@ -68,28 +68,28 @@ const songs = [
     },
     {
         title: "Rockn'Roll, Morning Light Falls on You",
-        file: BASE_URL + "assets/mp3/Rockn' Roll, Morning Light Falls on You.mp3",
-        logo: BASE_URL + "assets/img/songs/Rockn'Roll, Morning Light Falls on You.jpg"
+        file: BASE_URL + "assets/mp3/Rockn'Roll_Morning_Light_Falls_on_You.mp3",
+        logo: BASE_URL + "assets/img/songs/Rockn'Roll_Morning_Light_Falls_on_You.jpg"
     },
     {
         title: "Into the Light",
-        file: BASE_URL + "assets/mp3/Into the Light.mp3",
-        logo: BASE_URL + "assets/img/songs/Into the Light.jpg"
+        file: BASE_URL + "assets/mp3/Into_the_Light.mp3",
+        logo: BASE_URL + "assets/img/songs/Into_the_Light.jpg"
     },
     {
         title: "Blue Spring and Western Sky",
-        file: BASE_URL + "assets/mp3/Blue Spring and Western Sky.mp3",
-        logo: BASE_URL + "assets/img/songs/Blue Spring and Western Sky.jpg"
+        file: BASE_URL + "assets/mp3/Blue_Spring_and_Western_Sky.mp3",
+        logo: BASE_URL + "assets/img/songs/Blue_Spring_and_Western_Sky.jpg"
     },
     {
         title: "Shine as usual",
-        file: BASE_URL + "assets/mp3/Shine as usual.mp3",
-        logo: BASE_URL + "assets/img/songs/Shine as usual.jpg"
+        file: BASE_URL + "assets/mp3/Shine_as_usual.mp3",
+        logo: BASE_URL + "assets/img/songs/Shine_as_usual.jpg"
     },
     {
         title: "Now, I'm going from underground",
-        file: BASE_URL + "assets/mp3/Now, I'm going from underground.mp3",
-        logo: BASE_URL + "assets/img/songs/Now, I'm going from underground.jpg"
+        file: BASE_URL + "assets/mp3/Now_I'm_going_from_underground.mp3",
+        logo: BASE_URL + "assets/img/songs/Now_I'm_going_from_underground.jpg"
     },
     {
         title: "Doppelganger",
@@ -98,8 +98,8 @@ const songs = [
     },
     {
         title: "Me and the three primary colors",
-        file: BASE_URL + "assets/mp3/Me and the three primary colors.mp3",
-        logo: BASE_URL + "assets/img/songs/Me and the three primary colors.jpg"
+        file: BASE_URL + "assets/mp3/Me_and_the_three_primary_colors.mp3",
+        logo: BASE_URL + "assets/img/songs/Me_and_the_three_primary_colors.jpg"
     },
     {
         title: "Chronostasis",
@@ -113,8 +113,8 @@ const songs = [
     },
     {
         title: "milky way",
-        file: BASE_URL + "assets/mp3/milky way.mp3",
-        logo: BASE_URL + "assets/img/songs/milky way.jpg"
+        file: BASE_URL + "assets/mp3/milky_way.mp3",
+        logo: BASE_URL + "assets/img/songs/milky_way.jpg"
     },
     {
         title: "Planet",
@@ -128,13 +128,13 @@ const songs = [
     },
     {
         title: "Bundle up your dreams",
-        file: BASE_URL + "assets/mp3/Bundle up your dreams.mp3",
-        logo: BASE_URL + "assets/img/songs/Bundle up your dreams.jpg"
+        file: BASE_URL + "assets/mp3/Bundle_up_your_dreams.mp3",
+        logo: BASE_URL + "assets/img/songs/Bundle_up_your_dreams.jpg"
     },
     {
         title: "I'm the only ghost",
-        file: BASE_URL + "assets/mp3/I'm the only ghost.mp3",
-        logo: BASE_URL + "assets/img/songs/I'm the only ghost.jpg"
+        file: BASE_URL + "assets/mp3/I'm_the_only_ghost.mp3",
+        logo: BASE_URL + "assets/img/songs/I'm_the_only_ghost.jpg"
     },
 ]
 
