@@ -10,7 +10,7 @@
         </figure>
         <figure class="character-item">
             <img src="<?php echo BASE_URL; ?>assets/img/ikuyo_kita_1.jpg" alt="Ikuyo Kita">
-            <figcaption><a href="kita.php">Kita Ikuyo</a></figcaption>
+            <figcaption><a href="kita.php">Ikuyo Kita</a></figcaption>
         </figure>
         <figure class="character-item">
             <img src="<?php echo BASE_URL; ?>assets/img/ichiji_nijika_1.jpg" alt="Ichiji Nijika">
