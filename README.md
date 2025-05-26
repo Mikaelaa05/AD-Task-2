@@ -1,8 +1,54 @@
-# 🎸 Bocchi the Rock! Fan Page (AD-Task-3)🎶
+<a name="readme-top">
 
-Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicated to the amazing anime series *Bocchi the Rock!* 🌟
+<br/>
+
+<br />
+<div align="center">
+  <a href="https://https://github.com/Mikaelaa05">
+  <!-- TODO: If you want to add logo or banner you can add it here -->
+    <img src="assets/img/Kessoku_Band_Logo_Clear.png" alt="Nyebe" width="130" height="100">
+  </a>
+<!-- TODO: Change Title to the name of the title of your Project -->
+  <h3 align="center">🎸 Bocchi the Rock! Fan Page (AD-Task-2)🎶</h3>
+</div>
+<!-- TODO: Make a short description -->
+<div align="center">
+  Welcome to the Bocchi the Rock! Fan Page, a lovingly crafted website dedicated to the amazing anime series Bocchi the Rock! 🌟
+</div>
+
+<br />
+
+[![wakatime](https://wakatime.com/badge/github/Mikaelaa05/AD-Task-2.svg)](https://wakatime.com/badge/github/Mikaelaa05/AD-Task-2)
 
 ---
+
+<!-- TODO: If you want to add more layers for your readme -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+      <ol>
+        <li>
+          <a href="#key-components">Key Components</a>
+        </li>
+        <li>
+          <a href="#technology">Technology</a>
+        </li>
+      </ol>
+    </li>
+    <li>
+      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+    </li>
+    <li>
+      <a href="#resources">Resources</a>
+    </li>
+  </ol>
+</details>
+
+---
+
+## Overview
 
 ## 🌟 Features
 - **Dynamic Character Pages**: Each character has their own page with unique themes and images.
@@ -28,18 +74,35 @@ Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicat
 
 ---
 
-## 🛠️ Technologies Used
-- **PHP**: For dynamic content generation and server-side logic.
-  - **Declarations**: Variables and constants are declared to store and manage data efficiently.
-  - **Conditional Statements**: Used to control the flow of the application based on specific conditions (e.g., `if`, `else`, `switch`).
-  - **Looping Statements**: Utilized to iterate through arrays and perform repetitive tasks (e.g., `foreach`, `for`, `while`).
-  - **Arrays and Dictionaries**: Used to store and display band member information dynamically.
-  - **Functions**: Modularized code for reusable components like displaying band members.
-  - **Fragmentation**: Organized code into reusable components (e.g., header, footer, back button).
+### Key Components
 
-- **CSS**: For styling and themes, including the custom MP3 player.
-- **JavaScript**: For interactive features like image navigation and the advanced MP3 player controls.
-- **HTML**: For structure and layout.
+<!-- TODO: List of Key Components -->
+<!-- The following are just sample -->
+
+- Authentication & Authorization
+- CRUD Operations for Invetory System
+
+### Technology
+
+<!-- TODO: List of Technology Used -->
+#### Language
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+#### Framework/Library
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+#### Databases
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+#### Deployment
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
@@ -57,6 +120,74 @@ Welcome to the **Bocchi the Rock! Fan Page**, a lovingly crafted website dedicat
 - **Yamada Ryo**: The mysterious bassist 🎵
 
 ---
+
+## Rules, Practices and Principles
+
+<!-- Do not Change this -->
+
+1. Always use `AD-` in the front of the Title of the Project for the Subject followed by your custom naming.
+2. Do not rename `.php` files if they are pages; always use `index.php` as the filename.
+3. Add `.component` to the `.php` files if they are components code; example: `footer.component.php`.
+4. Add `.util` to the `.php` files if they are utility codes; example: `account.util.php`.
+5. Place Files in their respective folders.
+6. Different file naming Cases
+   | Naming Case | Type of code         | Example                           |
+   | ----------- | -------------------- | --------------------------------- |
+   | Pascal      | Utility              | Accoun.util.php                   |
+   | Camel       | Components and Pages | index.php or footer.component.php |
+8. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+9. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
+10. File Structure to follow below.
+
+```
+AD-ProjectName
+└─ assets
+|   └─ css
+|   |   └─ name.css
+|   └─ img
+|   |   └─ name.jpeg/.jpg/.webp/.png
+|   └─ js
+|       └─ name.js
+└─ components
+|   └─ name.component.php
+|   └─ templates
+|      └─ name.component.php
+└─ handlers
+|   └─ name.handler.php
+└─ pages
+|  └─ pageName
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ name.css
+|     |  └─ img
+|     |  |  └─ name.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ name.js
+|     └─ index.php
+└─ utils
+|   └─ name.utils.php
+└─ vendor
+└─ .gitignore
+└─ bootstrap.php
+└─ composer.json
+└─ composer.lock
+└─ index.php
+└─ readme.md
+└─ router.php
+```
+> The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
+
+## Resources
+
+<!-- TODO: Add References -->
+
+| Title        | Purpose                                                                       | Link          |
+| ------------ | ----------------------------------------------------------------------------- | ------------- |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
 
 ## 💗❤️ Thank You for Visiting! 💛💙
 Enjoy exploring the world of *Bocchi the Rock!* 🌟✨ Let’s rock together! 🎶
