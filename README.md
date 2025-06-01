@@ -67,6 +67,7 @@
     - **Shuffle & Loop Modes**: Shuffle songs, loop the playlist, or repeat a single song with intuitive toggles.
     - **Draggable & Minimize**: Move the player anywhere on the screen or minimize it for convenience.
     - **Responsive UI**: Player adapts to different screen sizes and themes.
+- **Dockerized Deployment**: Easily run the entire website in a containerized environment using Docker and Docker Compose.
 
 ---
 
@@ -104,10 +105,20 @@
 
 #### Deployment
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
 ## 🚀 How to Run
+
+### Option 1: Docker (Recommended)
+1. Make sure you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
+2. In your project directory, run:
+   ```sh
+   docker compose up --build
+3. Open your browser and go to http://localhost:9000
+
+### Option 2: XAMPP / FiveServer (Standard)
 1. Clone the repository.
 2. Use a local server like **XAMPP** or **FiveServer**.
 3. Open the website in your browser.
